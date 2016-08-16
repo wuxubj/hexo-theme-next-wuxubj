@@ -3,11 +3,11 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: C++,Matlab,信号处理,算法
-
+description: 记录敲过的代码、走过的人生
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -50,9 +50,9 @@ menu_icons:
   tags: tags
   archives: calendar-check-o
   commonweal: heartbeat
-  guestbook: envelope
+  guestbook: commenting
   mylove: heart
-
+ #envelope
 
 
 

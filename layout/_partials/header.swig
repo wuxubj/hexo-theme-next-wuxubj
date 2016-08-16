@@ -15,18 +15,18 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">{{ config.subtitle }}</p>
+  <p class="site-subtitle" id="site-subtitle">{{ config.subtitle }}</p>
 </div>
 
 <div class="site-nav-toggle">
-  <button>
+  <button onclick="showSubtitle()">
     <span class="btn-bar"></span>
     <span class="btn-bar"></span>
     <span class="btn-bar"></span>
   </button>
 </div>
 
-<nav class="site-nav">
+<nav class="site-nav" id="site-nav">
   {% set hasSearch = theme.swiftype_key || theme.tinysou_Key || config.search %}
 
   {% if theme.menu %}
